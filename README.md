@@ -8,7 +8,7 @@ def calculator():
     print("5: Exit")
     
     while True:
-        try:
+         try:
             choice = int(input("Choose an operation (1/2/3/4/5): "))
             if choice == 5:
                 print("Exiting the calculator. Goodbye!")
